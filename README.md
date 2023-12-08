@@ -41,7 +41,7 @@ Amono Online Shop is a fully-functional e-commerce web application built with Ja
   - view contact page
   - register account
 
-  - **Registered User Functions:**
+- **Registered User Functions:**
 
     - Register User can
     - can login with email and password
@@ -57,7 +57,7 @@ Amono Online Shop is a fully-functional e-commerce web application built with Ja
 1. **Clone the Repository:**
 
    ```
-   git clone https://github.com/your-username/amono-online-shop.git
+   git clone https://github.com/akwhtun/Online-Shop.git
    ```
 
 2. **Database Setup:**
