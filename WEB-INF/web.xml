@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	//for business
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>businessDetailRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reg</servlet-name>
+		<url-pattern>/WebContent/businessDetailRegister</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>reg2</servlet-name>
+		<servlet-class>completeBusinessDetailRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reg2</servlet-name>
+		<url-pattern>/WebContent/Admin/businessDetailRegister</url-pattern>
+	</servlet-mapping>
+
+	// for profile update
+	<servlet>
+		<servlet-name>accUpdate</servlet-name>
+		<servlet-class>accountUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accUpdate</servlet-name>
+		<url-pattern>/WebContent/Admin/accountupdate</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>accUpdate1</servlet-name>
+		<servlet-class>userAccountUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accUpdate1</servlet-name>
+		<url-pattern>/WebContent/Customer/accountupdate</url-pattern>
+	</servlet-mapping>
+
+	// for product post by business man
+	<servlet>
+		<servlet-name>productAdd</servlet-name>
+		<servlet-class>productAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productAdd</servlet-name>
+		<url-pattern>/WebContent/Admin/productAdd</url-pattern>
+	</servlet-mapping>
+
+	// for product update by business man
+	<servlet>
+		<servlet-name>productUpdate</servlet-name>
+		<servlet-class>productUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productUpdate</servlet-name>
+		<url-pattern>/WebContent/Admin/productUpdate</url-pattern>
+	</servlet-mapping>
+
+	//for business update
+	<servlet>
+		<servlet-name>businessDetailUpdate</servlet-name>
+		<servlet-class>businessDetailUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>businessDetailUpdate</servlet-name>
+		<url-pattern>/WebContent/Admin/businessupdate</url-pattern>
+	</servlet-mapping>
+
+	// for error handling
+	<error-page>
+		<error-code>404</error-code>
+		<location>/custom404.jsp</location>
+	</error-page>
+
+
+</web-app>

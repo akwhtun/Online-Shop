@@ -1,0 +1,20 @@
+/bin/
+
+.metadata/
+.classpath
+.project
+.tomcatplugin
+# Ignore the 'work' folder if it's used for temporary files or generated content
+work/
+
+Admin
+/WebContent/Admin/node_modules
+/WebContent/Admin//bower_components
+
+/WebContent/Admin/assets/fontawesome
+/WebContent/Admin/assets/fonts
+/WebContent/Admin/assets/scss
+
+Customer
+/WebContent/Customer/fonts
+
